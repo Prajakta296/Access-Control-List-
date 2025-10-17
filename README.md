@@ -3,8 +3,10 @@ This repository contains a Cisco Packet Tracer project demonstrating the use of 
 The project includes routers, switches, and PCs connected in a topology where ACL rules are applied to control traffic between networks.
 
 📂 Project Files
+
 ACL -Practical.pkt → Cisco Packet Tracer project file
 ACL.png → Network topology diagram
+
 🔑 What is ACL?
 An Access Control List (ACL) is a set of rules used in routers (or switches) to filter traffic.
 It decides whether to permit or deny data packets based on conditions like:
@@ -13,6 +15,7 @@ Source IP address
 Destination IP address
 Protocol (TCP, UDP, ICMP, etc.)
 Port numbers (HTTP, FTP, Telnet, etc.)
+
 ✨ Types of ACL:
 Standard ACL → Filters traffic using only the source IP address.
 Extended ACL → Filters traffic using source, destination, protocol, and ports.
@@ -39,6 +42,7 @@ Serial Links (WAN Connections)
 
 Router0 ↔ Router1: 192.168.1.1 / 192.168.1.2
 Router1 ↔ Router2: 192.168.2.1 / 192.168.2.2
+
 🎯 Objective
 The main goals of this project are:
 
